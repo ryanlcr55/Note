@@ -1,6 +1,6 @@
-##Redis 安裝
+## Redis 安裝
 
-####Windows
+#### Windows
 
 1. 點擊下列下載網址下載, 並執行安裝檔  
 下載網址: [請按此](https://github.com/microsoftarchive/redis/releases)
@@ -16,7 +16,7 @@
 
 ``
 - - -
-####Ubuntu 下安装
+#### Ubuntu 下安装
 1. 在 Ubuntu 系统安装 Redis 可以使用以下命令:
 
         $sudo apt-get update
@@ -38,7 +38,7 @@ redis 127.0.0.1:6379>
  
 *以上说明我们已经成功安装了redis。*
 
-####Redis配置 請至[網址](http://www.runoob.com/redis/redis-conf.html)參考
+#### Redis配置 請至[網址](http://www.runoob.com/redis/redis-conf.html)參考
 
 ---
 參考資料   
