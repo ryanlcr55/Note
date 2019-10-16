@@ -83,7 +83,7 @@ Redis有五種數據類型 : String, Hash, List, Set 及 Zset
 
  * 與 SET不同之處為每個元素都會關聯一個double類型的分數, redis正式透過該分數進行排列
  
- * 實例*
+ *實例*
  
     redis 127.0.0.1:6379> ZADD runoobkey 1 redis
     (integer) 1
@@ -116,7 +116,7 @@ Redis有五種數據類型 : String, Hash, List, Set 及 Zset
  >##### 何謂基數?
  >>比如数据集 {1, 3, 5, 7, 5, 7, 8}， 那么这个数据集的基数集为 {1, 3, 5 ,7, 8}, 基数(不重复元素)为5。 基数估计就是在误差可接受的范围内，快速计算基数
 
- * 實例*
+ *實例*
  
     redis 127.0.0.1:6379> PFADD runoobkey "redis"
     
