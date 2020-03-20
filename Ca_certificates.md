@@ -12,6 +12,11 @@
 4. 設定cacert.pem
     在 PHP.ini  中查找 curl.cainfo  及 openssl.cafile  這兩行
     填入 **步驟2** cacert.pem 的絕對路徑，和上一個步驟一樣，前方有分號請移除分號，如果找不到這兩行請自行添加
+    >特別注意：目錄斜線跟 Windows 檔案總管的斜線相反，要用左斜線     
+    ```
+    curl.cainfo="C:/php-7/extras/ssl/cacert.pem"
+    openssl.cafile="C:/php-7/extras/ssl/cacert.pem"
+    ```
 
 5. 重起php服務  
  `php -S 127.0.0.1:8401`
